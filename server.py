@@ -61,7 +61,7 @@ class VolunteerRequestHandler(SimpleHTTPRequestHandler):
         else:
             self._send_json(404, {"error": "المسار غير موجود"})
 
-if name == "main":
+if __name__ == "__main__":
     port = 8000
     server = HTTPServer(("127.0.0.1", port), VolunteerRequestHandler)
     print(f"Server running on http://127.0.0.1:{port}")

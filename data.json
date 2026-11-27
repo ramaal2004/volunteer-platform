@@ -22,5 +22,12 @@
       "date": "2026-12-18"
     }
   ],
-  "applications": []
+  "applications": [
+    {
+      "student_name": "rama",
+      "student_id": "202210713",
+      "opportunity_id": 1,
+      "id": 1
+    }
+  ]
 }
